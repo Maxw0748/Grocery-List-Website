@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    min-width: 80vh;
+    color: rgb(226, 162, 22);;
+    margin:0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+h1{
+    padding:10%;
+    text-align: center;
+    font-size: 6vw;
+    margin-bottom: auto;
+}
+nav{
+    width: 100%;
+}
+
+h3 {
+    font-size: 3vw;
+    margin-bottom: 1vw;
+    color: rgb(170, 124, 24);
+    text-decoration: underline;
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    margin-bottom: 3vw;
+    font-size: 3vw;
+    min-width: 30vw;
+    max-width: 80vw; /* Adjust the maximum width of the form as needed */
+    width: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #dfdfdf;
+    border-radius: 8px;
+    background-color: #dfdfdf;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px; /* Adjust the value as needed */
+    padding: 10px;
+    
+}
+
+table {
+    font-family: 'Arial', sans-serif;
+    border-collapse: collapse;
+    width: auto;
+    font-size: 2vw;
+    max-width: 100vh;
+}
+
+th, td {
+    border: 1px solid #242323;
+    text-align: left;
+    padding: 8px;
+}
+
+footer{
+    width: 100%;
+    padding-top: 20px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.box {
+    border: 0px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    width: 90%;
+}
+.content-box {
+    background-color: #f8f8f8; /* Set a background color */
+    padding: 15px; /* Add some padding for better spacing */
+    border-radius: 8px; /* Round the corners of the box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    margin-top: 15px; /* Create space between the heading and the box */
+    font-size: 16px; /* Adjust the font size */
+    line-height: 1.6; /* Set the line height for better readability */
+    color: #333; /* Set the text color */
+    outline: none;
+}
+img{
+    padding: 15px;
+}

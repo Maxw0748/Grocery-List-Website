@@ -1,0 +1,15 @@
+body {
+    font-family: 'Arial', sans-serif; /* Change 'Arial' to your desired font */
+}
+
+table {
+    font-family: 'Arial', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 10px solid #dddddd;
+    text-align: left;
+    padding: 80px;
+}
